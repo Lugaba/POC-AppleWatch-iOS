@@ -11,7 +11,38 @@
 		DFA68C452907043E00A8DE2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA68C442907043E00A8DE2B /* ContentView.swift */; };
 		DFA68C472907044000A8DE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA68C462907044000A8DE2B /* Assets.xcassets */; };
 		DFA68C4A2907044000A8DE2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA68C492907044000A8DE2B /* Preview Assets.xcassets */; };
+		DFA68C57290704CB00A8DE2B /* Teste2WApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA68C56290704CB00A8DE2B /* Teste2WApp.swift */; };
+		DFA68C5B290704CF00A8DE2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA68C5A290704CF00A8DE2B /* Assets.xcassets */; };
+		DFA68C5E290704CF00A8DE2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA68C5D290704CF00A8DE2B /* Preview Assets.xcassets */; };
+		DFA68C632907061F00A8DE2B /* Teste2W Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DFA68C54290704CB00A8DE2B /* Teste2W Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFA68C68290706EA00A8DE2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA68C442907043E00A8DE2B /* ContentView.swift */; };
+		DFA68C6A29070A3F00A8DE2B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA68C6929070A3E00A8DE2B /* Counter.swift */; };
+		DFA68C6B29070A3F00A8DE2B /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA68C6929070A3E00A8DE2B /* Counter.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFA68C642907061F00A8DE2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFA68C372907043E00A8DE2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA68C53290704CB00A8DE2B;
+			remoteInfo = "Teste2W Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFA68C662907061F00A8DE2B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DFA68C632907061F00A8DE2B /* Teste2W Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DFA68C3F2907043E00A8DE2B /* watchTeste2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchTeste2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +50,22 @@
 		DFA68C442907043E00A8DE2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFA68C462907044000A8DE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFA68C492907044000A8DE2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA68C54290704CB00A8DE2B /* Teste2W Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Teste2W Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA68C56290704CB00A8DE2B /* Teste2WApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teste2WApp.swift; sourceTree = "<group>"; };
+		DFA68C5A290704CF00A8DE2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA68C5D290704CF00A8DE2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA68C6929070A3E00A8DE2B /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DFA68C3C2907043E00A8DE2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA68C51290704CB00A8DE2B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,8 +78,11 @@
 		DFA68C362907043E00A8DE2B = {
 			isa = PBXGroup;
 			children = (
+				DFA68C67290706D900A8DE2B /* Shared */,
 				DFA68C412907043E00A8DE2B /* watchTeste2 */,
+				DFA68C55290704CB00A8DE2B /* Teste2W Watch App */,
 				DFA68C402907043E00A8DE2B /* Products */,
+				DFA68C622907061F00A8DE2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				DFA68C3F2907043E00A8DE2B /* watchTeste2.app */,
+				DFA68C54290704CB00A8DE2B /* Teste2W Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				DFA68C422907043E00A8DE2B /* watchTeste2App.swift */,
-				DFA68C442907043E00A8DE2B /* ContentView.swift */,
 				DFA68C462907044000A8DE2B /* Assets.xcassets */,
 				DFA68C482907044000A8DE2B /* Preview Content */,
 			);
@@ -67,6 +113,40 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DFA68C55290704CB00A8DE2B /* Teste2W Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DFA68C56290704CB00A8DE2B /* Teste2WApp.swift */,
+				DFA68C5A290704CF00A8DE2B /* Assets.xcassets */,
+				DFA68C5C290704CF00A8DE2B /* Preview Content */,
+			);
+			path = "Teste2W Watch App";
+			sourceTree = "<group>";
+		};
+		DFA68C5C290704CF00A8DE2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFA68C5D290704CF00A8DE2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFA68C622907061F00A8DE2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFA68C67290706D900A8DE2B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DFA68C442907043E00A8DE2B /* ContentView.swift */,
+				DFA68C6929070A3E00A8DE2B /* Counter.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,14 +157,33 @@
 				DFA68C3B2907043E00A8DE2B /* Sources */,
 				DFA68C3C2907043E00A8DE2B /* Frameworks */,
 				DFA68C3D2907043E00A8DE2B /* Resources */,
+				DFA68C662907061F00A8DE2B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFA68C652907061F00A8DE2B /* PBXTargetDependency */,
+			);
+			name = watchTeste2;
+			productName = watchTeste2;
+			productReference = DFA68C3F2907043E00A8DE2B /* watchTeste2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFA68C53290704CB00A8DE2B /* Teste2W Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA68C5F290704CF00A8DE2B /* Build configuration list for PBXNativeTarget "Teste2W Watch App" */;
+			buildPhases = (
+				DFA68C50290704CB00A8DE2B /* Sources */,
+				DFA68C51290704CB00A8DE2B /* Frameworks */,
+				DFA68C52290704CB00A8DE2B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = watchTeste2;
-			productName = watchTeste2;
-			productReference = DFA68C3F2907043E00A8DE2B /* watchTeste2.app */;
+			name = "Teste2W Watch App";
+			productName = "Teste2W Watch App";
+			productReference = DFA68C54290704CB00A8DE2B /* Teste2W Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +197,9 @@
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					DFA68C3E2907043E00A8DE2B = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					DFA68C53290704CB00A8DE2B = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
 				};
@@ -116,6 +218,7 @@
 			projectRoot = "";
 			targets = (
 				DFA68C3E2907043E00A8DE2B /* watchTeste2 */,
+				DFA68C53290704CB00A8DE2B /* Teste2W Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +233,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFA68C52290704CB00A8DE2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA68C5E290704CF00A8DE2B /* Preview Assets.xcassets in Resources */,
+				DFA68C5B290704CF00A8DE2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,10 +251,29 @@
 			files = (
 				DFA68C452907043E00A8DE2B /* ContentView.swift in Sources */,
 				DFA68C432907043E00A8DE2B /* watchTeste2App.swift in Sources */,
+				DFA68C6A29070A3F00A8DE2B /* Counter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFA68C50290704CB00A8DE2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA68C68290706EA00A8DE2B /* ContentView.swift in Sources */,
+				DFA68C57290704CB00A8DE2B /* Teste2WApp.swift in Sources */,
+				DFA68C6B29070A3F00A8DE2B /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFA68C652907061F00A8DE2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFA68C53290704CB00A8DE2B /* Teste2W Watch App */;
+			targetProxy = DFA68C642907061F00A8DE2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DFA68C4B2907044000A8DE2B /* Debug */ = {
@@ -317,6 +448,66 @@
 			};
 			name = Release;
 		};
+		DFA68C60290704CF00A8DE2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teste2W Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TX88D8XM39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teste2W;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.hummel.luca.watchTeste2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.hummel.luca.watchTeste2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		DFA68C61290704CF00A8DE2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Teste2W Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = TX88D8XM39;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Teste2W;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = br.hummel.luca.watchTeste2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.hummel.luca.watchTeste2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +525,15 @@
 			buildConfigurations = (
 				DFA68C4E2907044000A8DE2B /* Debug */,
 				DFA68C4F2907044000A8DE2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA68C5F290704CF00A8DE2B /* Build configuration list for PBXNativeTarget "Teste2W Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA68C60290704CF00A8DE2B /* Debug */,
+				DFA68C61290704CF00A8DE2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
